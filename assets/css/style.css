@@ -293,7 +293,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cdef9;}
     bottom: 0;
     left: 0;
     width: 109%;
-    height: 90px;
+    height: 50px;
     background: #1f2c6c;
 }
 /*.ab-list-icon */
@@ -525,9 +525,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 225px;}
     border:  1px solid #e5ebf2;
 }
 
+.profiles-content {padding-top: 100px; }
 
-.profiles-content {padding-top: 100px;}
-.profiles-content .col-sm-3{padding:0; margin-left: 50px;}
 .profile-txt {
     display: flex;
     align-items: center;
@@ -536,13 +535,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 225px;}
 .single-profile {
     position: relative;
     height: 150px;
-    width: 300px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #b2c1ce;
-    border-radius: 12px;
-    
+    border-radius: 10px;
     overflow:hidden;
     -webkit-transition:background 0.5s linear; 
     -moz-transition:background 0.5s linear; 
@@ -556,12 +554,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 225px;}
     font-size: 16px;
 }
 .single-profile.profile-no-border{border-right:transparent;}
-.profile-border {
-    border-bottom: 1px solid #b2c1ce;
-}
+
 .single-profile-overlay{
     display:flex;
-    align-content: center;
     align-items:center;
     text-transform: capitalize;
     justify-content:center;
@@ -672,6 +667,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 225px;}
     transform:scale(1);
     top:0;
 }/*.isotope-overlay*/
+
 
 /*-------------------------------------
         10. Clients
